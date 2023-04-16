@@ -1,0 +1,2 @@
+#忽略less文件夹
+less/**/*.less
