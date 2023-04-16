@@ -1,0 +1,15 @@
+body {
+  background-color: #ccd4e6;
+  display: flex;
+  justify-content: center;
+}
+.a {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  border: #fff 10px solid;
+  background-color: #788cc8;
+  top: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+}
