@@ -38,22 +38,60 @@ body {
   color: #fff;
   font: 500 15px '';
 }
-.c {
+.a .c {
   position: absolute;
   top: -130px;
   right: -240px;
 }
-.c .d,
-.c .e {
+.a .c .d,
+.a .c .e {
   position: absolute;
   right: calc(var(--i)*100px);
   width: calc(var(--w)*40px);
   height: 500px;
   overflow: hidden;
   border-radius: 100px;
-  transform: rotateZ(200deg) translate(0, 0);
+  transform: rotateZ(220deg) translate(0, 0);
   background: #f0dc96;
+  transition: 0.5s 0.5s;
 }
-.c .d:nth-child(2) {
+.a .c .d:nth-child(2) {
   background: #f0bee6;
+}
+.a .c .e {
+  left: -470px;
+  top: -140px;
+  width: 70px;
+  background-color: #5adc96;
+}
+.a:hover .c div {
+  transition: 0.5s calc(var(--i)*0.1s);
+  transform: rotateZ(220deg) translate(-200px, 400px);
+}
+.a:hover .b {
+  transition: 1s 0.5s;
+  left: 370px;
+}
+.a:hover span {
+  transition: 1s 0.5s;
+  top: 105px;
+}
+.a:hover h2 {
+  transition: 1s 0.5s;
+  opacity: 1;
+}
+.a .f {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-image: url("../images/mywechat.png");
+  background-size: cover;
+  border: solid #fff 5px;
+  margin: 70px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.a:hover .f {
+  transition: 1s 1.3s;
+  opacity: 1;
 }
