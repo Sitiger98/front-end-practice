@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '思源宋体', 'Microsoft Yahei', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-top: 20px;
+  background-image: linear-gradient(90deg, #29eac4, #4284db);
+  color: #fff;
+}
+.nutri {
+  padding: 7px;
+  width: 270px;
+  border: 2px solid #fff;
+}
+.nutri h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  font: 700 32px/1.1 '思源宋体', 'Microsoft Yahei', sans-serif;
+}
+.nutri .mb {
+  margin-bottom: 10px;
+}
+.nutri .side {
+  display: flex;
+  justify-content: space-between;
+}
+.nutri .indent {
+  padding-left: 10px;
+}
+.nutri #first {
+  padding-bottom: 10px;
+  border-bottom: 10px solid #fff;
+}
+.nutri #second {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #fff;
+  line-height: 1.2;
+}
+.nutri #second h2 {
+  font-size: 32px;
+}
+.nutri #third {
+  padding-bottom: 10px;
+  font-size: 0.83rem;
+  border-bottom: 10px solid #fff;
+}
+.nutri #third .right {
+  text-align: right;
+}
+.nutri #third .zhifang {
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.nutri #third .zhifang .total {
+  border-bottom: 1px solid #fff;
+}
+.nutri #third .part2 {
+  padding: 13px 0;
+}
+.nutri #third .part2 div {
+  border-bottom: 1px solid #fff;
+}
+.nutri #third .part2 div:last-child {
+  border: none;
+}
+.nutri #third .part3 {
+  margin-bottom: 10px;
+  line-height: 1;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.nutri #third .part3 div {
+  padding: 15px 0;
+}
+.nutri #third .part3 .total {
+  padding-left: 10px;
+}
+.nutri #third .part3 .addsugar {
+  margin-left: 20px;
+  border-top: 1px solid #fff;
+}
+.nutri #fourth {
+  padding-bottom: 10px;
+  font-size: 0.83rem;
+  border-bottom: 5px solid #fff;
+}
+.nutri #fourth div {
+  border-bottom: 1px solid #fff;
+}
+.nutri #fourth div:last-child {
+  border: none;
+}
+.nutri footer {
+  font-size: 0.75rem;
+}
